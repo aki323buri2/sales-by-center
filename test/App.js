@@ -6,7 +6,7 @@ export default class App extends React.Component
 	{
 		return (
 			<div className="app">
-				あっぷ
+				すたーたー
 			</div>
 		);
 	}

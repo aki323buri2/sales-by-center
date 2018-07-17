@@ -13,7 +13,7 @@ module.exports = {
             '[name].css'
         ), 
         new HtmlWebpackPlugin({
-            title: 'redux-saga-app test', 
+            title: 'starter test', 
         }), 
     ], 
     module: {

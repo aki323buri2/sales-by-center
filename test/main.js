@@ -1,7 +1,7 @@
 import 'babel-polyfill';
 import React from 'react';
 import { render } from 'react-dom';
-import { createApp } from '../index';
+import { createApp } from 'redux-saga-app';
 import App from './App';
 import reducers from './reducers';
 import mainSaga from './mainSaga';

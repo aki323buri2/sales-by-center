@@ -1,5 +1,5 @@
 {
-  "name": "redux-saga-app",
+  "name": "starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -46,6 +46,7 @@
     "classnames": "*",
     "bulma": "*",
     "bulma-extensions": "*",
-    "@fortawesome/fontawesome-free": "*"
+    "@fortawesome/fontawesome-free": "*",
+    "redux-saga-app": "file:../redux-saga-app"
   }
 }
