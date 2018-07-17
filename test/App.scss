@@ -1,0 +1,28 @@
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts' !default;
+@import '~@fortawesome/fontawesome-free/scss/fa-brands';
+@import '~@fortawesome/fontawesome-free/scss/fa-regular';
+@import '~@fortawesome/fontawesome-free/scss/fa-solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/v4-shims';
+
+$family-sans-serif:
+	BlinkMacSystemFont, 
+	-apple-system, 
+	"Segoe UI", 
+	"Roboto", 
+	"Oxygen", 
+	"Ubuntu", 
+	"Cantarell", 
+	"Fira Sans", 
+	"Droid Sans", 
+	"Helvetica Neue", 
+	"Helvetica", 
+	Meiryo, // <<<<<<<<<<<<<<
+	"Arial", sans-serif !default;
+	
+@import '~bulma/bulma';
+.flex
+{
+	display: flex;
+}
