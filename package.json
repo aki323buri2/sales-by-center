@@ -47,6 +47,7 @@
     "bulma": "*",
     "bulma-extensions": "*",
     "@fortawesome/fontawesome-free": "*",
+    "dom-polyfill": "file:../dom-polyfill",
     "redux-saga-app": "file:../redux-saga-app"
   }
 }
