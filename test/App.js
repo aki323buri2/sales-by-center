@@ -7,7 +7,7 @@ export default class App extends React.Component
 {
 	render()
 	{
-		const { salesByCenter, groupBy } = this.props;
+		const { salesByCenter, groupBy, salesByCenterPending: pending } = this.props;
 		const action = (type, payload) => this.props.dispatch({ type, payload });
 		return (
 			<div className="app content is-small">
@@ -15,6 +15,7 @@ export default class App extends React.Component
 
 				<SalesByCenter
 					salesByCenter={salesByCenter}
+					pending={pending}
 					groupBy={groupBy}
 				/>
 			</div>
