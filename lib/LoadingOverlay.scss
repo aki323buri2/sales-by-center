@@ -1,0 +1,47 @@
+.loading-overlay
+{
+	// border: 1px solid red;
+
+	.pending-enter
+	{
+		opacity: .01;
+	}
+	.pending-enter.pending-enter-active
+	{
+		opacity: 1;
+		transition: opacity 500ms ease-in;
+	}
+	.pending-exit
+	{
+		opactiy: 1;
+	}
+	.pending-exit.pending-exit-active
+	{
+		opacity: .01;
+		transition: opacity 500ms ease-in;
+	}
+
+	.overlay
+	{
+		background: rgba(#000, .5);
+		color: #fff;
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 100;
+
+		text-align: center;
+
+		.loading-display
+		{
+			// border: 1px solid #fff;
+			margin: 40% 0;
+			.icon-display
+			{
+				padding: 1em;
+			}
+		}
+	}
+}
