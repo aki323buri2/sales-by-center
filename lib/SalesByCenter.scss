@@ -17,7 +17,7 @@
 		}
 		.table
 		{
-			margin-bottom: 2em;
+			margin-bottom: 0;
 			th
 			{
 				text-align: center;
@@ -33,5 +33,10 @@
 				text-align: right;
 			}			
 		}
+	}
+
+	.section-footer
+	{
+		margin-bottom: 2em;
 	}
 }
