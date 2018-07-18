@@ -1,0 +1,37 @@
+.sales-by-center
+{
+	border: 1px solid red;
+
+	.message-body
+	{
+		padding: .5em;
+	}
+
+	.section-container
+	{
+		// border: 1px solid red;
+		.section-title
+		{
+			font-weight: bold;
+			text-align: center;
+		}
+		.table
+		{
+			margin-bottom: 2em;
+			th
+			{
+				text-align: center;
+			}
+			td.no, 
+			td.shcds, 
+			td.syaten, 
+			td.utanka, 
+			td.usuryo, 
+			td.ujyury, 
+			td.ukin
+			{
+				text-align: right;
+			}			
+		}
+	}
+}

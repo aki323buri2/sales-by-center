@@ -1,0 +1,15 @@
+.pagination-container
+{
+	border: 1px solid red;
+	.pagination-previous, 
+	.pagination-next, 
+	.pagination-link, 
+	{
+		font-size: 12px;
+		margin: 2px;
+	}
+	.pagination-list
+	{
+		list-style: none;
+	}
+}

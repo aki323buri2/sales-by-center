@@ -1,5 +1,18 @@
-# starter
+# sales-by-center
+
+install
 
 ```bash
-npm install [package-name]@file:path/to/[package-name]
+git clone path/to/sales-by-center.git
+...
+cd sales-by-center
+...
+npm install
+...
+```
+
+test run
+
+```bash
+npx browser-sync start --config bs-config.js
 ```

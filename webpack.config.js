@@ -13,7 +13,7 @@ module.exports = {
             '[name].css'
         ), 
         new HtmlWebpackPlugin({
-            title: 'starter test', 
+            title: 'sales-by-center test', 
         }), 
     ], 
     module: {
