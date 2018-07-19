@@ -1,5 +1,4 @@
 import { put, call, fork } from 'redux-saga/effects';
-import { select } from 'redux-saga/effects';
 import salesByCenterSaga from '../lib/salesByCenterSaga';
 import moment from 'moment';
 export const mainSaga = function *()
@@ -13,11 +12,9 @@ export const mainSaga = function *()
 	}});
 	yield put({ type: 'SYOZOK', payload: 160 });
 	yield put({ type: 'TOKUNO', payload: [16509,16511,16512,16513,16518] });
-
-	const { kjob, syozok, tokuno } = yield select();
-
-	yield put({ type: 'FETCH_SALES_BY_CENTER', payload: { kjob, syozok, tokuno } });
-
 	yield put({ type: 'GROUP_BY', payload: [ 'tokuno', 'center', 'syaten', 'shcds', 'utanka' ] });
+
+	yield put({ type: 'FETCH_SALES_BY_CENTER' });
+
 };
 export default mainSaga;
