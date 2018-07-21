@@ -15,6 +15,13 @@
 		}
 	}
 
+	.group-by
+	{
+		width: 500px;
+
+		margin: 0 auto;
+	}
+
 	.section-container
 	{
 		// border: 1px solid red;
@@ -29,6 +36,22 @@
 			th
 			{
 				text-align: center;
+				position: relative;
+				&.clickable
+				{
+					&:hover
+					{
+						cursor: pointer;
+						opacity: .5;
+						transition: .5s;
+					}
+				}
+				.sort-mark
+				{
+					position: absolute;
+					right: -2px;
+					top: 2px;
+				}
 			}
 			td.no, 
 			td.shcds, 

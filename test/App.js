@@ -21,6 +21,7 @@ export default class App extends React.Component
 					salesByCenter={salesByCenter}
 					pending={pending}
 					groupBy={groupBy}
+					groupByChange={groupBy => action('GROUP_BY', groupBy)}
 				/>
 			</div>
 		);
