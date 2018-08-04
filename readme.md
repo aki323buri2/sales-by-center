@@ -1,17 +1,13 @@
 # sales-by-center
 
-install
-
 ```bash
-git clone path/to/sales-by-center.git
-...
-cd sales-by-center
-...
-npm install
-...
-```
+git clone /path/to/sales-by-center.git
 
-test run
+cd sales-by-center
+npm install
+npx webpack
+npx webpack --watch -d
+```
 
 ```bash
 npx browser-sync start --config bs-config.js
