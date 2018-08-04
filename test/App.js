@@ -7,7 +7,7 @@ export default class App extends React.Component
 {
 	render()
 	{
-		const { kjob, syozok, tokuno } = this.props;
+		const { fetchSalesByCenterParams } = this.props;
 		const { salesByCenter, groupBy, salesByCenterPending: pending } = this.props;
 		const action = (type, payload) => this.props.dispatch({ type, payload });
 		return (
@@ -15,9 +15,7 @@ export default class App extends React.Component
 				せいるずばいせんたあ
 
 				<SalesByCenter
-					kjob={kjob}
-					syozok={syozok}
-					tokuno={tokuno}
+					fetchSalesByCenterParams={fetchSalesByCenterParams}
 					salesByCenter={salesByCenter}
 					pending={pending}
 					groupBy={groupBy}
